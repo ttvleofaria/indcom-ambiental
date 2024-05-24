@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa de Incineração</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #556B2F;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #6B8E23;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #556B2F;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h2 {
+            color: #556B2F;
+        }
+        .contact-form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #556B2F;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contact-form button:hover {
+            background-color: #6B8E23;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Empresa de Incineração</h1>
+    </header>
+    <nav>
+        <a href="#sobre-nos">Sobre Nós</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <section id="sobre-nos">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma empresa especializada na coleta e incineração de resíduos biológicos, comprometida com a segurança e o meio ambiente.</p>
+    </section>
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <ul>
+            <li>Coleta de resíduos biológicos</li>
+            <li>Incineração segura de resíduos</li>
+            <li>Gestão de resíduos hospitalares</li>
+            <li>Consultoria em descarte de resíduos</li>
+        </ul>
+    </section>
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <p>Nossos projetos recentes incluem a implementação de sistemas de incineração em diversas instituições de saúde, garantindo a segurança e a conformidade com as normas ambientais.</p>
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <form class="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Empresa de Incineração. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
